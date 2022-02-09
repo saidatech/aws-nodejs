@@ -13,5 +13,3 @@ sudo yum install -y nodejs
 # https://www.npmjs.com/package/forever
 sudo npm install forever -g
 
-# Clean working folder
-sudo rm -rf /home/ec2-user/nodejs
