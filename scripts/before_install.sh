@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Install node.js
-sudo apt-get install python-software-properties -y
-sudo apt-add-repository ppa:chris-lea/node.js -y
-sudo apt-get update
-sudo apt-get install nodejs -y
+sudo yum install python-software-properties -y
+sudo yum-repository ppa:chris-lea/node.js -y
+sudo yum update
+sudo yum install nodejs -y
 
 # Install nodemon
 # sudo npm install nodemon -g
@@ -14,4 +14,4 @@ sudo apt-get install nodejs -y
 sudo npm install forever -g
 
 # Clean working folder
-# sudo find /home/ubuntu/test -type f -delete
+# sudo find /home/ec2-user/test -type f -delete
