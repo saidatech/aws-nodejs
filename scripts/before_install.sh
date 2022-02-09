@@ -14,4 +14,4 @@ sudo yum install -y nodejs
 sudo npm install forever -g
 
 # Clean working folder
-# sudo find /home/ec2-user/test -type f -delete
+sudo rm -rf /home/ec2-user/nodejs
